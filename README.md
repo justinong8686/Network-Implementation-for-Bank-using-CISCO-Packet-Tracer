@@ -10,26 +10,37 @@ AHB Bank is setting up a new 3-storey branch in Glenmarie Business Park, Shah Al
 1.There are SIX (6)departments to be allocated in the branch:
 
 a.Internal IT support
+
 i.Remote access (SSH) to all the networking devices for troubleshooting, except ATM network
+
 ii.The Headquarter had assigned only level 1 support to this branch. Any higher level support such as issues on Wide Area Network (WAN) and Internet Service Provider (ISP) level requiresescalation to a higher level support.
+
 iii.Support level 2 and above will perform remote into the branch through VPN for troubleshooting.iv.Monitor CCTV loads and storage
 
 b.ATMservices
+
 i.Isolated network and directly connect to Headquarter network through 5556 port.
+
 ii.All staffs including IT support has no access to the ATM network.
 
 c.Consumer Banking
+
 i.Uses most of the network traffic load
+
 ii.Handle individual customer related banking matters
+
 iii.Isolated network within this department only
 
 d.Investment Banking
+
 i.Requires Internet access (HTTP and HTTPS only) to support overseas customers
 
 e.Loans
+
 i.Requires Internet access with port 9999 to check customer credit scores
 
 f.Insurance
+
 i.Do not require Internet access but requires port 7772 to connect to national insurance portal
 
 2.Every department network is separated. All staffs can communicate throught emails and an internal chatting system using port 465.
